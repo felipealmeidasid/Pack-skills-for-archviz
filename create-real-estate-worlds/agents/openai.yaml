@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Real Estate Worlds"
+  short_description: "Real estate world bibles, visual DNA, prompts, and handoffs"
+  default_prompt: "Use $create-real-estate-worlds to create a cinematic real estate world bible, prompt pack, and storyboard handoff for my project."

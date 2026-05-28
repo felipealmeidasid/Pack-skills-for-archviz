@@ -1,0 +1,260 @@
+# Strategic Image Expansion Patterns
+
+Use this reference inside `create-real-estate-worlds` when creating a project world, image generation plan, prompt pack, or first batch of images for architecture, real estate, interiors, towers, houses, loteamentos, amenities, construction, or client projects.
+
+For a larger categorized menu of supplemental image types, also use `references/strategic-image-type-library.md`.
+
+## Core Rule
+
+Do not break the current successful behavior of the skill.
+
+First create the normal coherent project image set: exterior, arrival, key interiors, amenities, rooftop, pool, living, kitchen, rooms, or whatever the project brief requests.
+
+Then add or suggest supplemental strategic images when they improve:
+
+- sales value;
+- client understanding;
+- social retention;
+- portfolio quality;
+- video/storyboard potential;
+- Seedance keyframe quality;
+- architectural explanation.
+
+Supplemental images must support the main project set. They must not replace the main images.
+
+## Strategic Image Menu
+
+This is a menu, not a checklist. Do not generate every type automatically.
+
+Examples:
+
+- material moodboard or finish board;
+- room moodboard;
+- furniture/object/material cutout board;
+- architectural detail close-up;
+- water/pool/cascade close-up;
+- facade detail;
+- location/map/route image;
+- lot highlight;
+- masterplan/loteamento sequence image;
+- construction/timelapse stage;
+- facade-to-technical drawing;
+- sketch/SketchUp-to-photoreal image;
+- render-to-line-drawing image;
+- exploded axonometric;
+- floor-stack diagram;
+- interior-to-material overlay;
+- room-to-detail derivative;
+- start/end frame pair;
+- before/after transformation;
+- day-to-night or golden-hour-to-blue-hour variant;
+- lifestyle/use proof;
+- worker/construction proof;
+- drone/context frame;
+- social hook frame.
+
+The examples are not exhaustive. The skill should think like a creative director and suggest new image types when they would make the video more professional, more attention-grabbing, more understandable, or more commercially useful. When the list below feels too limited, consult the strategic image type library and choose from categories such as sales/conversion, spatial clarity, environmental comfort, technical authority, material storytelling, location/context, lifestyle proof, video hooks, and real-client production control.
+
+## Visual Hook Requirement
+
+Every video-oriented image plan must include a strong opening hook.
+
+The first image or first planned shot cannot be only "a pretty render." It must create immediate curiosity, impact, transformation, or desire in the first seconds.
+
+Possible hooks:
+
+- dramatic but realistic facade reveal;
+- rooftop/pool impact frame;
+- close material macro that pulls back to reveal the project;
+- location/map/lot reveal;
+- raw land to masterplan reveal;
+- technical drawing to photoreal reveal;
+- exploded architecture frame;
+- day-to-night transformation;
+- construction progress jump;
+- unexpected view from the balcony/pool/water edge;
+- lifestyle gesture that reveals a premium space.
+
+Choose the hook based on the project. Do not force a gimmick when a strong architectural frame is better.
+
+## Real Client Asset Mode
+
+Use this mode whenever the user provides real client project images, renders, SketchUp screenshots, BIM/CAD exports, plans, drone photos, site photos, construction photos, phone photos, or sales materials.
+
+Treat real client assets as the source of truth.
+
+Classify each asset:
+
+- geometry source;
+- material source;
+- room/source;
+- facade/source;
+- site/context source;
+- technical drawing/source;
+- construction stage/source;
+- mood/style source.
+
+Rules:
+
+- preserve client architecture, massing, openings, balconies, floor count, materials, fixed furniture, landscape, site boundaries, views, and scale;
+- do not invent hidden rooms, facade sides, extra amenities, ocean views, pools, towers, neighboring context, or floor plans unless the user explicitly asks for conceptual expansion;
+- use generated images as faithful derivatives, safe close-ups, mood/material boards, technical overlays, start/end frames, or clearly labeled conceptual options;
+- when references conflict, the client render/photo/plan controls over mood references;
+- state what is known from reference and what is inferred;
+- if a requested image needs unsupported geometry, ask for another reference or mark it as conceptual risk.
+
+## When To Add Supplemental Images
+
+Add or suggest supplemental images when:
+
+- the project will become a video or storyboard;
+- the main image set lacks a strong hook;
+- the project has a location/sales story that needs explaining;
+- the project has construction/loteamento/process value;
+- the architecture has a strong technical idea worth showing;
+- the materiality is a sales argument;
+- a single environment can yield useful detail, mood, or transition images;
+- the client needs portfolio/social content beyond final renders.
+
+Do not add supplemental images when:
+
+- the user only asked for a compact basic image set;
+- there are not enough references to preserve fidelity;
+- the extra image would be decorative filler;
+- the extra image would confuse the project identity;
+- the project is still too undefined.
+
+## Project-Type Expansion Suggestions
+
+### House / Villa
+
+Core images:
+
+- facade/arrival;
+- living/integration;
+- kitchen/dining;
+- pool/garden;
+- suite or private area;
+- key detail.
+
+Possible supplemental images:
+
+- facade to line drawing;
+- exploded volume;
+- pool/water/material close-up;
+- garden/path arrival hook;
+- material moodboard;
+- day-to-night hero;
+- start/end frame from gate to facade or pool to living.
+
+### Residential Tower
+
+Core images:
+
+- exterior hero;
+- arrival/lobby;
+- pool/amenity;
+- party room/gourmet;
+- gym/wellness;
+- rooftop;
+- apartment/duplex living;
+- kitchen/suite/view.
+
+Possible supplemental images:
+
+- location one-block-from-beach map;
+- rooftop exclusive vs shared amenity contrast;
+- tower facade detail;
+- balcony/view hook;
+- amenity material moodboard;
+- floor-stack/crown/duplex diagram;
+- ground pool to rooftop pool contrast;
+- blue-hour final hero.
+
+### Interior Project
+
+Core images:
+
+- main room hero;
+- reverse or adjacent view;
+- key functional zone;
+- detail close-up;
+- material moodboard.
+
+Possible supplemental images:
+
+- render to technical drawing;
+- finish board;
+- object/furniture cutout board;
+- before/after;
+- wide room to detail;
+- cabinetry or lighting detail;
+- mood overlay over the environment.
+
+### Loteamento / Development
+
+Core images:
+
+- aerial/context;
+- land/lot;
+- masterplan;
+- entrance/gate;
+- roads/infrastructure;
+- green areas/amenities;
+- lifestyle/community.
+
+Possible supplemental images:
+
+- raw land to lot highlight;
+- lot highlight to masterplan;
+- infrastructure progression;
+- drone route/access;
+- map pin/location;
+- family walking/community proof;
+- day-to-night entrance hero.
+
+### Construction / Timelapse
+
+Use only when requested or commercially useful.
+
+Possible chain:
+
+- raw site;
+- earthwork;
+- foundation;
+- structure;
+- masonry/envelope;
+- glazing/roof;
+- facade finishes;
+- interiors;
+- landscape/pool;
+- completed project.
+
+Use start/end pairs or chained keyframes only when they are useful for the video.
+
+## Output Behavior
+
+When planning a new project, include:
+
+1. core image set;
+2. optional strategic supplemental image set;
+3. reason each supplemental image exists;
+4. whether it is client-facing, social-facing, or production-facing;
+5. whether it needs real references;
+6. whether it is safe to generate now or should wait for approved core images.
+
+## Prompting Requirements
+
+Every image prompt must include:
+
+- selected aspect ratio;
+- project/world name;
+- image purpose;
+- source/reference role when assets exist;
+- architecture/material anchors;
+- what must remain consistent;
+- what may change;
+- photoreal architectural target;
+- negative constraints.
+
+For video-oriented projects, the image plan must identify the opening visual hook before the storyboard stage.

@@ -1,0 +1,112 @@
+# Storyboard Board Rules
+
+Use this reference when creating GPT Image storyboard boards, production boards, shot grids, per-frame prompts, local timecodes, and evaluation rules.
+
+## Aspect Ratio Rule
+
+Only use `9:16` or `16:9` unless the user explicitly overrides.
+
+Ask at the beginning of a new project which aspect ratio to use. Use `9:16` as the default for Reels and mobile social content. Use `16:9` for presentations, websites, YouTube, and horizontal films.
+
+Inside a storyboard board, every cinematic frame/panel must match the selected final format:
+
+- `9:16` panels for Reels/mobile.
+- `16:9` panels for horizontal presentations/web/YouTube.
+
+The overall storyboard page may arrange multiple panels, but panels must not be square, mixed ratio, squeezed, stretched, or compressed into thin strips.
+
+## Frame Prompt Pipeline
+
+Before writing a storyboard board prompt, create a per-frame image prompt pack.
+
+Each frame/keyframe prompt should include:
+
+- subject/space;
+- scene and action;
+- composition;
+- camera/lens;
+- lighting;
+- architecture/material fidelity;
+- selected aspect ratio;
+- negative constraints.
+
+If image generation in Codex is unavailable or poor, return the per-frame GPT Image prompts plus the storyboard assembly prompt so the user can generate frames separately.
+
+## Board Format
+
+Default to `production storyboard board`, not a simple grid.
+
+Use:
+
+1. Header with project title, format, duration, shot count, visual style, pacing, aspect ratio, and constraints.
+2. Reference fidelity map using exact file names.
+3. Camera and movement planning row.
+4. Main storyboard area with numbered cinematic frames and short local timecodes.
+5. Small motion strip under each frame with camera/action/transition cues.
+6. Footer notes for lighting, transitions, continuity, and Seedance reminders.
+
+Keep the board clean. Cinematic frames must dominate. Use short labels only. Avoid long text blocks inside frames.
+
+For `9:16` Reels storyboards, prefer 6 panels arranged in a clean 2 rows x 3 columns grid. If a board has 5 shots, add a useful sixth shot or use a balanced layout. Never place all `9:16` panels side by side in one horizontal row.
+
+## Shot Count And Timing
+
+Never ask GPT Image for more than 6 storyboard frames in a single board. For longer videos, write separate prompts labeled `Storyboard Board 1`, `Storyboard Board 2`, etc.
+
+Recommended structures:
+
+- 10 seconds: 4-6 shots in one storyboard.
+- 15 seconds: up to 6 shots in one storyboard; split if more shots are needed.
+- 30 seconds social: 8-14 shots split into multiple boards, never more than 6 shots per board.
+- Social/Reels: `9:16`, fast but readable.
+- Website/sales deck: `16:9`, premium and slower.
+
+## Local Timecode Rule
+
+Every storyboard image uses its own local timeline. The first frame of every board starts at `00:00`, even when the board is a continuation.
+
+Do not write absolute campaign timecodes inside continuation boards. If global timing is useful, mention it outside the board prompt as planning context only.
+
+## No Repeated Frames Rule
+
+Never repeat the same image or composition in multiple storyboard frames. Each frame must be visually different.
+
+The same environment may appear more than once only when each frame has a clear variation:
+
+- different perspective from a provided reference;
+- safe crop or close-up of visible architectural detail;
+- wider pull-back from the same source image;
+- different focal point, foreground reveal, or material detail;
+- different character action when characters are requested;
+- different time or atmosphere only if the user allows that change;
+- different clean keyframe generated from the same source reference.
+
+Exception: in continuous start/end workflows, the end frame of one clip may be reused as the start frame of the next clip. Label it as a technical handoff frame.
+
+## GPT Image Board Prompt Rules
+
+- Ask for one complete production storyboard board, not separate files and not just a grid.
+- State selected aspect ratio clearly and require every individual frame/panel to match it.
+- Name every uploaded reference by exact file name in `REFERENCES:`, shot plan, and shot descriptions.
+- Say source files are exact references, not mood inspiration.
+- Map each shot to a file name and safe operation: crop, push-in, pull-back, pan, tilt, lateral track, drone approach from the same visible angle, detail insert, or safe transition.
+- If no references are provided, map each shot to a conceptual image prompt and keep design language consistent.
+- Lock architecture, site, materials, interior layout, furniture, view, landscape, and scale.
+- Use short visible labels only: `SHOT 01`, `00:00-00:02`, `CAMERA: SLOW PUSH-IN`, `ACTION: FACADE REVEAL`.
+- Put shot numbers and motion notes outside the cinematic image area, in a caption strip or page margin.
+- Add negative constraints: no random text, no watermark, no logo unless provided, no people unless requested, no changed architecture, no invented spaces, no altered materials, no distorted windows, no extra floors, no changed furniture, no CGI/plastic look, no inconsistent lighting, no fake reflections, no warped perspective.
+
+## Evaluation Checklist
+
+Before approving for Seedance, verify:
+
+- every frame matches referenced file names;
+- no frame repeats the same image or composition;
+- architecture, massing, materials, floor count, openings, furniture, landscape, and views are preserved;
+- no new building, room, amenity, furniture, people, signage, logo, or random text appeared;
+- shot order tells a sales presentation story;
+- camera moves are possible from supplied references;
+- the board is clean enough for Seedance to understand the sequence;
+- source references or clean keyframes look like real architectural photography;
+- lighting, material palette, furniture placement, landscape, and camera orientation remain consistent;
+- close-ups and multishots have enough source detail or a dedicated crop/keyframe/reference is requested.

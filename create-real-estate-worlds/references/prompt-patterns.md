@@ -1,0 +1,175 @@
+﻿# Prompt Patterns
+
+## General Prompt Rules
+
+Write generation prompts in English unless the user asks otherwise.
+
+Ask for the project aspect ratio at the beginning of each new project. Use only `9:16` or `16:9` unless the user explicitly overrides:
+
+- `9:16` is the primary/default format for Reels, Instagram, TikTok, Stories, Shorts, and mobile social content.
+- `16:9` is for sales decks, websites, YouTube, client presentations, and horizontal cinematic films.
+
+Include the selected aspect ratio in every image prompt, video prompt, storyboard handoff shot, clean keyframe prompt, and generation plan.
+
+Good prompts include:
+
+- world name;
+- aspect ratio;
+- exact space;
+- architecture and materials;
+- time of day and light behavior;
+- camera/lens/framing/movement;
+- human action if useful;
+- emotional function;
+- continuity anchors;
+- realism guardrails;
+- exclusions.
+
+Avoid prompts that only say "luxury", "beautiful", "cinematic", or "high-end" without specifying why.
+
+## Master World Prompt
+
+Use this for the whole visual universe:
+
+```text
+Create a coherent cinematic real estate world for [WORLD NAME], a [PROJECT TYPE] in [LOCATION/CLIMATE] designed for [AUDIENCE], optimized for aspect ratio [9:16 or 16:9]. The world is defined by [ARCHITECTURE], [PRIMARY MATERIALS], [LANDSCAPE], [LIGHT LOGIC], and [EMOTIONAL TARGET]. Maintain spatial continuity across exterior, arrival, lobby, amenities, interiors, balconies/views, and neighborhood/nature context. Use realistic [REGIONAL] premium lifestyle, believable human behavior, physically plausible materials, natural reflections, accurate scale, refined commercial archviz realism, and a restrained cinematic camera language. Avoid fantasy, anime, stock-photo posing, sterile showroom emptiness, fake luxury, impossible architecture, and over-rendered CGI.
+```
+
+## Key Visual Still
+
+```text
+Create a cinematic real estate key visual for [WORLD NAME], aspect ratio [9:16 or 16:9]: [SIGNATURE LOCATION], [ARCHITECTURE + MATERIALS], [LANDSCAPE/VIEW], [TIME OF DAY + LIGHT], [OPTIONAL HUMAN PRESENCE], shot with a [LENS/FRAMING] composition that communicates [EMOTIONAL FUNCTION]. Preserve [CONTINUITY ANCHORS]. Realistic [REGIONAL] premium lifestyle, physically plausible materials, natural reflections, subtle atmosphere, refined commercial archviz realism, no fantasy, no anime, no stock-photo posing, no over-rendered CGI look.
+```
+
+## Exterior / Facade
+
+```text
+Create a realistic architectural exterior image for [WORLD NAME], aspect ratio [9:16 or 16:9]: [FACADE DESCRIPTION], [MATERIAL HIERARCHY], [LANDSCAPE], [STREET/ARRIVAL CONTEXT], [TIME OF DAY]. Camera at [HEIGHT/DISTANCE], [LENS FEEL], clean verticals, believable scale, natural shadows, realistic glass reflections, refined real estate campaign quality. Maintain continuity with [ANCHORS]. Avoid impossible geometry, excessive glow, generic skyline, fake palm trees, plastic materials, and oversaturated sunset.
+```
+
+## Interior
+
+```text
+Create a cinematic interior archviz image for [WORLD NAME], aspect ratio [9:16 or 16:9]: [ROOM], [ARCHITECTURE], [MATERIALS], [FURNITURE LANGUAGE], [VIEW OR ADJACENT SPACE], [TIME OF DAY]. Use [CAMERA/LENS], natural light from [DIRECTION], believable shadows, tactile materials, lived-in but uncluttered premium staging, subtle human trace if appropriate. Preserve [ANCHORS]. Avoid sterile showroom emptiness, generic decor, distorted furniture, impossible window views, and over-polished CGI.
+```
+
+## Material Detail
+
+```text
+Create a close architectural material detail for [WORLD NAME], aspect ratio [9:16 or 16:9]: [MATERIAL/OBJECT], [LOCATION], [LIGHT], [CAMERA DISTANCE/LENS], emphasizing texture, scale, craftsmanship, natural imperfections, and tactile realism. Include subtle context from [ANCHOR SPACE] so it belongs to the same property. Avoid plastic shine, fake marble, excessive depth of field, random decorative objects, and product-catalog stiffness.
+```
+
+## Lifestyle Still
+
+```text
+Create a realistic premium real estate lifestyle still for [WORLD NAME], aspect ratio [9:16 or 16:9]: [PERSONA/ROLE] naturally [ACTION] in [LOCATION], surrounded by [ARCHITECTURE/MATERIALS], [TIME OF DAY + LIGHT], [CAMERA/LENS/COMPOSITION]. The person should feel candid, culturally believable, and secondary to the property experience. Preserve [ANCHORS]. Avoid stock-photo smiles, fashion editorial posing, fantasy styling, wrong climate wardrobe, and artificial skin retouching.
+```
+
+## Vertical Social Video
+
+```text
+Create a [9:16 or 16:9] cinematic real estate video prompt for [WORLD NAME]. Duration [DURATION]. Scene: [LOCATION]. Camera [MOVEMENT] from [START FRAME] to [END FRAME], revealing [ARCHITECTURE/MATERIALS/VIEW]. Human action: [NATURAL GESTURE]. Light: [TIME/WEATHER]. Emotional function: [FUNCTION]. Maintain spatial continuity with [ANCHORS]. Realistic motion, stable architecture, physically plausible reflections, no morphing walls, no impossible furniture movement, no stock-photo acting.
+```
+
+## Cinematic Sales Film Shot
+
+```text
+Create a [9:16 or 16:9] cinematic sales film shot for [WORLD NAME]. Shot type: [ESTABLISHING / MEDIUM / DETAIL / TRANSITION / HUMAN MOMENT]. Location: [SPACE]. Camera: [MOVEMENT, LENS, HEIGHT, SPEED]. Action: [SUBJECT/ACTION]. Light and atmosphere: [DETAIL]. The shot should communicate [EMOTIONAL FUNCTION] and connect to the previous/next scene through [CONTINUITY ANCHOR]. Refined real estate campaign realism, no over-rendered CGI, no fantasy, no generic luxury cliches.
+```
+
+## Storyboard Handoff Shot
+
+```text
+Handoff shot [NUMBER] for [WORLD NAME], aspect ratio [9:16 or 16:9]: [SHOT DESCRIPTION]. Composition intent: [FRAMING]. Camera: [LENS/MOVEMENT]. Action: [ACTION]. Light: [LIGHT]. Architecture/material anchors: [ANCHORS]. Emotional beat: [BEAT]. Use this as source direction for the downstream archviz storyboard stage, not as a final storyboard board.
+```
+
+## Interactive / World-Model Scene Prompt
+
+Use for future interactive environments or world models:
+
+```text
+Generate an interactive real estate environment for [WORLD NAME]: [SPACE OR ROUTE]. The environment should preserve [ARCHITECTURE], [MATERIALS], [LIGHT LOGIC], [LANDSCAPE], and [SPATIAL ANCHORS]. Allow navigation from [START] to [DESTINATION], with believable interactions such as [OPEN DOOR / WALK THROUGH LOBBY / APPROACH POOL / ENTER BALCONY / CHANGE TIME OF DAY]. Maintain persistent object placement, realistic scale, stable geometry, material continuity, natural lighting changes, and no fantasy or game-like stylization.
+```
+
+## Negative Prompt Template
+
+```text
+Avoid anime, fantasy, RPG aesthetics, gothic armor, game character design, fake luxury, over-rendered CGI, plastic materials, impossible architecture, inconsistent floor plans, distorted furniture, warped glass, excessive bloom, neon glow, oversaturated sunset, random city views, stock-photo posing, artificial smiles, wrong climate wardrobe, sterile showroom emptiness, cluttered staging, generic hotel decor, unrealistic reflections, floating objects, malformed hands, unreadable signage, and architecture that contradicts the project.
+```
+
+## Camera Language Menu
+
+Use these choices intentionally:
+
+- 18-24mm: spatial reveal, wide interior, lobby, amenity, careful with distortion;
+- 28-35mm: natural lifestyle, arrival, living room, balcony, most real estate scenes;
+- 50mm: intimate human moment, material and furniture relationship;
+- 70-100mm: compression, skyline, detail, luxury restraint;
+- drone high wide: site, context, coastline, skyline, towers;
+- gimbal slow push: arrival, lobby, corridor, reveal;
+- slider lateral: material detail, facade rhythm, kitchen/living detail;
+- locked-off architectural frame: premium stillness, symmetry, trust;
+- handheld subtle: only for human warmth, never shaky.
+
+## Light Language Menu
+
+- morning clean light: freshness, family, wellness, daily life;
+- late afternoon warm light: aspiration, comfort, premium mood;
+- blue hour: facade, city, arrival, exclusivity;
+- overcast soft light: material realism, calm, editorial restraint;
+- night warm interior: hospitality, intimacy, city glow;
+- tropical shade: Brazilian realism, vegetation, water, terraces.
+
+## Prompt Pack Grouping
+
+For each world, include:
+
+- 3 hero/key visual prompts;
+- 3 exterior/arrival prompts;
+- 4 interior prompts;
+- 3 amenity prompts;
+- 3 material detail prompts;
+- 3 lifestyle prompts;
+- 5 vertical video prompts;
+- 5 sales film shot prompts;
+- 4 to 6 storyboard handoff shots when the next phase is video/storyboard production;
+- 2 optional interactive/world-model prompts.
+
+Scale down when the user asks for a compact version.
+
+## Strategic Supplemental Image Prompting
+
+When a project is likely to become a video/storyboard/social package, image prompts should include both core project images and optional strategic supplemental images.
+
+Core prompts create the coherent project identity.
+
+Supplemental prompts create useful assets for:
+
+- visual hook;
+- material proof;
+- technical explanation;
+- location proof;
+- process/timelapse;
+- loteamento/masterplan progression;
+- transition bridge;
+- start/end frame;
+- client moodboard or finish board;
+- detail close-up;
+- lifestyle/use proof;
+- final hero frame.
+
+This is a menu, not a checklist.
+
+Every supplemental prompt must state:
+
+- image purpose;
+- reference/source role, especially for real client assets;
+- what must remain identical;
+- what may change;
+- project continuity anchors;
+- whether the image is client-facing, social-facing, or production-facing.
+
+For real client projects, prompts must say that uploaded renders/photos/plans are strict references for architecture, geometry, material, scale, and fixed elements. Do not invent hidden angles, rooms, views, amenities, or facade sides unless the user explicitly asks for conceptual expansion.
+
+For video-oriented work, define the first visual hook before writing the storyboard handoff.
+
