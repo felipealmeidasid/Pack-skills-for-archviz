@@ -1,4 +1,4 @@
-﻿---
+---
 name: archviz-storyboard
 description: Create professional architectural visualization storyboards, project storyboard packages, moodboards, architectural detail boards, film-sequence boards, clean keyframe plans, GPT Image board prompts, and Seedance video prompt packages for real estate presentations. Use when the user provides archviz renders, photos, floor plans, real estate assets, approved images, or a create-real-estate-worlds handoff and wants cinematic storyboard boards with strict architectural fidelity. Default project formats are 9:16 for Reels/social and 16:9 for presentations/horizontal films; ask the aspect ratio at the beginning of each new project.
 ---

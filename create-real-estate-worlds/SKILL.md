@@ -1,4 +1,4 @@
-﻿---
+---
 name: create-real-estate-worlds
 description: Create cinematic real estate world bibles, world databases, visual DNA systems, reference-grounded architectural universes, scene libraries, realistic personas, prompt packs, and handoff packets for architecture, archviz, property launches, luxury homes, apartments, towers, condominiums, resorts, hotels, interiors, amenities, branded real estate campaigns, AI image/video generation, and future world-model systems. Use when the user wants a reusable AI-ready source of truth for realistic real estate storytelling. Ask the aspect ratio at the beginning of each new project and use 9:16 for Reels/social or 16:9 for presentations/horizontal films unless explicitly overridden. Do not use as the primary skill for final storyboard production from approved images; prepare a handoff for archviz-storyboard instead.
 ---
