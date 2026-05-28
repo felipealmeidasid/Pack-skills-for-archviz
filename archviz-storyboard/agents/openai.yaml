@@ -1,0 +1,4 @@
+interface:
+  display_name: "Archviz Storyboard"
+  short_description: "Archviz storyboards, project boards, details, and video prompts"
+  default_prompt: "Use $archviz-storyboard to turn these real estate project assets or world handoff into a professional storyboard package and Seedance-ready video prompt."

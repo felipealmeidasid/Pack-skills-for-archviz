@@ -1,0 +1,125 @@
+# Video Motion Rules
+
+Use this reference for camera movement, pacing, transitions, sound, Seedance prompts, continuity, and final video planning.
+
+## Aspect Ratio Rule
+
+Only use these aspect ratios unless the user explicitly overrides:
+
+- `9:16` vertical for Reels, TikTok, Stories, Shorts, and mobile-first ads. This is the user's primary format.
+- `16:9` horizontal for sales decks, websites, YouTube, client presentations, and cinematic horizontal films.
+
+At the beginning of a new project, ask which aspect ratio to use: `9:16` or `16:9`. If the user says Reels, Instagram, Shorts, TikTok, Stories, social, or mobile, default to `9:16` and state it. If the user says presentation, website, YouTube, sales deck, or horizontal film, default to `16:9` and state it.
+
+The selected aspect ratio controls every generated image, storyboard frame, clean keyframe, and video prompt.
+
+## Storytelling And Retention
+
+The complete video must tell a story. Do not create random camera moves over unrelated rooms, facades, or amenities.
+
+Every video should have:
+
+- a visual hook in the first 3 seconds;
+- a clear promise, reveal, transformation, question, or emotional reason to keep watching;
+- a progression that helps the viewer understand, desire, or imagine using the project;
+- continuity anchors such as material, light, line, water, facade rhythm, plan logic, character action, or site movement;
+- a closing beat that reinforces sales value.
+
+For social videos, make the first 3 seconds more visually striking than the rest, but keep architecture readable.
+
+## Pacing
+
+For Reels, TikTok, Stories, and high-retention sales videos, do not default to 5 seconds per scene.
+
+- Normal architecture/detail shots: 1.5-3 seconds.
+- Quick hooks, match cuts, feature flashes, and material inserts: 1-2 seconds.
+- Complex transformations, construction progressions, room-to-room reveals, or character actions: 4-5 seconds.
+- Closing hero shot: 2-4 seconds unless the user asks for a calm premium ending.
+
+For a 30-second social video, prefer 8-14 shots. Use 5-second clips only when the shot truly needs time to read or quality would suffer.
+
+## Movement Selection
+
+Movement variety must serve the story, architecture, sales message, or retention hook.
+
+- Choose movement according to the beat: curiosity, arrival, material value, comfort, indoor-outdoor connection, lifestyle, or final hero reveal.
+- Keep movement coherent across the full film.
+- Do not stack many movement styles in the same short shot unless it is intentionally a hook or transition.
+- Preserve architectural readability: the viewer must understand facade, layout, material, garden, furniture, water, or room scale.
+- If fast motion is used, include a brief stable settle on the hero composition before cutting.
+
+Use `references/camera-movement-library.md` for movement vocabulary and safety tiers.
+
+## Safe Camera And Transition Language
+
+Prefer:
+
+- slow push-in;
+- pull-back reveal;
+- lateral dolly;
+- crane up/down;
+- tilt from material detail to volume;
+- pan across facade rhythm;
+- drone approach from the same visible angle;
+- parallax through foreground landscaping;
+- match cut by light, line, material, water, glass, or horizon;
+- hard cut for amenity montage;
+- slow dissolve only for calm luxury mood.
+
+Avoid:
+
+- flying through walls unless the reference supports a planned transition;
+- orbiting around unseen sides;
+- entering rooms not shown;
+- changing day to night unless conceptual risk is accepted;
+- using reflections/mirrors/water as the main continuity device unless essential.
+
+## Continuous Start/End Frame Mode
+
+Use this mode only when requested or when it clearly improves continuity.
+
+Valid patterns:
+
+- Single continuous clip: one video covers a continuous movement over 4-10 seconds with one clear camera path and environment.
+- Chained clips: each clip has a start keyframe and end keyframe. End frame N becomes start frame N+1.
+
+Rules:
+
+- Preserve architecture, lighting, materials, furniture, people, and camera direction across handoffs.
+- Use the same exact image for `end frame N` and `start frame N+1`.
+- Label repeated handoff frames as technical continuity frames, not repeated storyboard shots.
+- Avoid jumps in lens, height, angle, time of day, or room position unless intentionally a match cut.
+
+## Sound Design
+
+Do not ask generated video tools to add music unless the user explicitly requests music.
+
+By default, request only action-related sound effects and natural ambient sound: water/pool/cascade, birds, coastal wind, leaves, stone/wood/door foley, quiet premium interior room tone, and subtle whooshes tied to camera movement.
+
+Add negative audio when relevant: `no music, no soundtrack, no song, no beat, no melody, no vocals, no different background music per clip`.
+
+## Seedance Prompt Rules
+
+Generate the final Seedance prompt only after the user shares the generated storyboard board, clean keyframes, or explicitly asks for a provisional prompt.
+
+Begin with references:
+
+```text
+REFERENCES:
+- storyboard-board.png: approved storyboard board and timeline reference.
+- exact-file-name.png: role/name.
+```
+
+Then instruct Seedance to follow the storyboard sequence while animating the real architectural scene. The video should not look like a camera filming a storyboard page.
+
+Keep the prompt compact:
+
+- duration and aspect ratio;
+- strict storyboard-following instruction;
+- architectural continuity anchors;
+- photoreal real-camera target;
+- camera and edit rhythm;
+- clean keyframe or original render reference for each important clip;
+- close-up/crop target when using a detail from a larger reference;
+- start/end frame references when using continuous mode;
+- critical negative constraints.
